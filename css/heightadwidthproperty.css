@@ -1,0 +1,39 @@
+/* div{
+    border: 1px solid black;
+    min-height: 250px;
+    height: 250px;
+    overflow: hidden;
+    overflow: scroll;
+} */
+/* div{
+    border: 1px solid black;
+    height: 400px;
+    overflow: hidden;
+    overflow: scroll;
+    
+}
+h2{
+    border: 1px solid black;
+    text-align: center;
+    background-color: aqua;
+} */
+
+/* div{
+    border: 1px solid black;
+    min-width: 250px;
+} */
+/* span{
+    border: 1px solid black;
+    display: inline-block;
+    width: 250px;
+    max-width: 25opx;
+    } */
+div{
+    border: 5px solid black;
+}
+section{
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    width: 32vw;
+}

@@ -1,0 +1,18 @@
+p{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    background-color: khaki;
+    /* transition: height 10s,width 15s; */
+    transition-duration: 5s;
+    /* transition-delay: 5s; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    transition-timing-function: linear;
+}
+p:hover{
+    height: 250px;
+    width: 300px;
+}

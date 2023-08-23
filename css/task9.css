@@ -1,0 +1,89 @@
+#d1{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    border-radius: 850px;
+    display: inline-block;
+    background-color: yellow;
+}
+#d2{
+    border: 2px solid black;
+    height: 100px;
+    width: 150px;
+    top: 150px;
+    border-radius: 130px;
+    position: relative;
+    margin-left: 30px;
+    background-color: bisque;
+    
+
+}
+#d3{
+    border: 2px solid black;
+    height: 100px;
+    width: 150px;
+    top: 150px;
+    border-radius: 130px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 4px;
+    
+    background-color:bisque;
+
+}
+#d4{
+    border: 2px solid black;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 40px;
+    background-color: black;
+    animation-name: praveen;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#d5{
+    border: 2px solid black;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: black;
+    animation-name: praveen;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes  praveen{
+    from{
+        left: 0px;
+        right: 50px;
+    }
+    to{
+        right:0px;
+        left: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    text-align: center;
+   
+}

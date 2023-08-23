@@ -1,0 +1,100 @@
+/*a:link{
+    color:green
+}
+
+a:visited{
+    color: yellow;
+}*/
+
+a:active{
+    color: aqua;
+}
+
+a.hover{
+    font-size: xx-large;
+}
+span{
+    border: 1px solid black;
+    display: block;
+}
+P{
+    border: 1px solid black;
+    display: inline;
+}
+span:hover + p{
+    display: block;
+    background-color: red;
+}
+/* button:hover{
+    height: 40px;
+    width: 90px;
+    background-color: blue;
+    font-size: 30px;
+} */
+/* div{
+    height: 200px;
+    background-color: aqua;
+}
+h1{
+    display: none;
+}
+button:hover+div>h1{
+    display: block;
+    height: 400px;
+    width: 900px;
+    background-color: blue;
+    font-size: 30px;
+} 
+
+h1{
+
+}
+.para{
+    border: 1px black;
+    display: none;
+
+}
+h1:hover ~ .para{
+    display: inline;
+} */
+/* input:enabled{
+    background-color: brown;
+    color: antiquewhite;
+    border: 5px inset yellowgreen;
+}
+input:disabled{
+    background-color: black;
+}
+input:placeholder-shown{
+    background-color: blueviolet;
+}
+
+input:focus{
+    background-color: rgba(255, 255, 0, 0.697);
+    
+} */
+/* div>p:first-child{
+    background-color: aqua;
+}
+div>p:last-child{
+    background-color: brown;
+}
+div>p:nth-child(3){
+    background-color: yellow;
+}
+div>p:nth-child(even){
+    background-color: blue;
+
+} */
+div>i:first-of-type{
+    background-color: aqua;
+}
+div>i:last-of-type{
+    background-color: red;
+}
+div>p:first-of-type{
+    background-color: blueviolet;
+}
+div>i:nth-of-type(2){
+    background-color: green;
+}

@@ -1,0 +1,42 @@
+/* p{
+    border: 1px solid black;
+    position: static;
+    top: 250px;
+    
+} */
+#grandparent{
+    border: 3px solid black;
+    padding: 35px;
+    background-color: gray;
+    height: 850px;
+
+}
+#parent{
+    border: 3px solid black;
+    background-color: khaki;
+}
+#parent>p{
+    border: 2px solid black;
+    height: 150px;
+    width: 250px;
+}
+#parent>p:nth-child(1){
+    background-color: red;
+    position: fixed;
+    top: 0px;
+
+    /* position: relative;
+    position: absolute;
+    left: 350px;
+    top: 250px; */
+    
+}
+#parent>p:nth-child(2){
+    background-color: blue;
+   
+}
+#parent>p:nth-child(3){
+    background-color: lawngreen;
+    
+}
+    

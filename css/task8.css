@@ -1,0 +1,71 @@
+div{
+    background-color: khaki;
+    text-align: center;
+
+    
+}
+input{
+    background-color: rgb(25, 195, 252);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 25px;
+}
+#abc{
+    /* https://images.unsplash.com/photo-1591681354784-c684e483dae0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhbWVyYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60 */
+    /* display: inline-block; */
+    background-repeat: no-repeat;
+}
+img{
+    height: 300px;
+    width: 450px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+div>section{
+    display: inline-block;
+    height: 600px;
+    width: 450px;
+    word-spacing: 5px;
+    background-color:lightblue;
+    border-radius: 25px;
+   
+
+}
+div{
+    padding-left: 50px;
+}
+#abc{
+    margin-right: 250px;
+    margin-top: 40px;
+}
+h1{
+    text-align: left;
+    margin-left:10px ;
+}
+p{
+    padding-right: 30px;
+    text-align: justify;
+    padding-left: 20px;
+}
+section:hover{
+    transform: scale(1.1);
+    transition: 2s;
+
+}
+#abc{
+    transition: 1s;
+}
+nav{
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    width: 1700px;
+    margin: 0px;
+    word-spacing: 300px;
+    text-align: center;
+}
+

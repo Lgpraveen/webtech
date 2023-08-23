@@ -1,0 +1,189 @@
+#d1{
+  border: 2px solid black;
+  display: inline-block;
+  height: 80px;
+  width: 20px;
+  background-color: orange;
+  position: relative;
+  top: 295px;
+  left: 780px;
+  animation-name: praveen;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes praveen{
+  from{
+    background-color: red;
+    height: 10px;
+  }
+  to{
+    background-color: yellow;
+  }
+}
+#d2{
+  border: 2px solid black;
+  display: inline-block;
+  height: 80px;
+  width: 20px;
+  background-color: orange;
+  position: relative;
+  top: 295px;
+  left: 790px;
+  animation-name: praveen1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1s;
+}
+@keyframes praveen1{
+  from{
+    background-color: red;
+    height: 0px;
+  }
+}
+#d3{
+  border: 2px solid black;
+  display: inline-block;
+  height: 80px;
+  width: 20px;
+  background-color: orange;
+  position: relative;
+  top: 295px;
+  left: 795px;
+  animation-name: praveen2;
+  animation-duration: s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes praveen2{
+  from{
+    background-color: red;
+    height: 0px;
+  }
+}
+#d4{
+  border: 2px solid black;
+  display: inline-block;
+  height: 80px;
+  width: 20px;
+  background-color: orange;
+  position: relative;
+  top: 295px;
+  left: 800px;
+  animation-name: praveen3;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1s;
+}
+@keyframes praveen3{
+  from{
+    background-color: red;
+    height: 0px;
+  }
+}
+#d5{
+  border: 2px solid black;
+  display: inline-block;
+  height: 80px;
+  width: 20px;
+  background-color: orange;
+  position: relative;
+  top: 295px;
+  left: 805px;
+  animation-name: praveen4;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1s;
+}
+@keyframes praveen4{
+  from{
+    background-color: red;
+    height: 20px;
+  }
+}
+#d6{
+  border: 2px solid black;
+  display: inline-block;
+  height: 80px;
+  width: 20px;
+  background-color: orange;
+  position: relative;
+  top: 295px;
+  left: 810px;
+  animation-name: praveen5;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1s;
+}
+@keyframes praveen5{
+  from{
+    background-color: red;
+    height: 20px;
+  }
+}
+#d7{
+  border: 2px solid black;
+  display: inline-block;
+  height: 80px;
+  width: 20px;
+  background-color: orange;
+  position: relative;
+  top: 295px;
+  left: 815px;
+  animation-name: praveen6;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1s;
+}
+@keyframes praveen6{
+  from{
+    background-color: red;
+    height: 00px;
+    
+  }
+}
+#d8{
+  border: 2px solid black;
+  display: inline-block;
+  height: 80px;
+  width: 20px;
+  background-color: orange;
+  position: relative;
+  top: 295px;
+  left: 815px;
+  animation-name: praveen7;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1s;
+}
+@keyframes praveen7{
+  from{
+    background-color: red;
+   
+    
+  }
+}
+p{
+  font-size: 30PX;
+  text-align: center;
+  position: relative;
+  top: 370px;
+  left: 800px;
+
+  position: fixed;
+
+}

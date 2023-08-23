@@ -1,0 +1,31 @@
+.music-player {
+    position: relative;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#fff, #fff) no-repeat;
+    background-size: 10% 100%;
+    animation: wave-animation 1s infinite;
+  }
+  
+  
+  
+  @keyframes wave-animation {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+  
