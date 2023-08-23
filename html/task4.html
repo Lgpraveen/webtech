@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            text-align: center;
+        } */
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 700px;
+            text-align: center;
+            margin:350px;
+            
+        }
+        th{
+            background-color: antiquewhite;
+            padding: 15px;
+            border-bottom: 2px dotted blue;
+            border-top: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+        }
+        #tr1{
+            border: 2px;
+            border-bottom:double green;
+        }
+        #tr2{
+            border: 2px;
+            border-bottom:double blue;
+        }
+     
+        
+      #tr3{
+        background-color: white;
+      }
+      #tr3:last-child:hover{
+        background-color: yellow;
+        color: black;
+        transform: scale(1.0);
+
+      }
+      tr>:nth-child(3){
+        border: 2px solid black;
+        border-bottom: none;
+        border-top:2px dotted blue;
+        border-right: none;
+      }   
+    </style>
+</head>
+<body>
+    <div>
+    <table>
+        <thead>
+        <tr>
+          <th>name</th>
+          <th>age</th>
+          <th>s.no</th>
+        </tr>
+    </thead>
+        <tr id="tr1">
+            <td>praveen</td>
+            <td>21</td>
+            <td>01</td>
+        </tr>
+        <tr id="tr2">
+            <td>praveen</td>
+            <td>21</td>
+            <td>01</td>
+        </tr>
+        <tr id="tr3">
+            <td>praveen</td>
+            <td>21</td>
+            <td>01</td>
+        </tr>
+      </table>
+    </div>
+</body>
+</html>

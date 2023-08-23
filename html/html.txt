@@ -1,0 +1,27 @@
+HTML-(Hyper text markup language)
+
+tags - * tags will have some information
+       * anything which is enclosed inside angular bracket
+
+there are two types of tags
+      * paired tags / container tag
+      * unpaired tags /self closing tags / Empty tags
+
+<p></p> - paragraph
+<br> - break
+<hr> - Horizontal line
+<h1></h1> - heading.maximum font size
+.
+.
+<h6></h6> - minimum font size
+
+TEXTFORMATING TAGS:.
+<b></b> - bold
+<big></big> - big text
+<small><small> - small text
+<i></i> , <emp></emp> - italic
+<sub></sub> - subscript
+<sup></sup> - superscript
+<b></b>,<strong></strong/> - bold
+<del></del. - delete
+<ins></ins> - insert 

@@ -1,0 +1,96 @@
+	css-collection of formatting rules
+3 types of styles
+	inline(style attribute)
+	internal(style tag)
+	external(link)
+
+
+font properties:-
+
+font-family:ariaal;
+font-style:italic;
+font-weight:bold;
+font-varient:captalise;
+font-size
+font-color
+font(multiple value)
+
+
+background properties:-
+
+
+background-color
+background-url()
+background-repeat(no repeat,repeat ,x,y)
+background-size:cover,contain
+background-position: center center;
+height
+width
+background-attachment:fixed/scroll;
+background-orgin:contennt box,padding box,border box
+
+colour:transparent
+background-clip:text;
+
+background gradient:-(multiple color)
+
+
+linear-gradient (background:linear-gradient(to right/to left/to top/to bottom/to bottom right ,orange,white,green)
+repeated linear-gradient(color will e repeated)
+radial-gradient(color circular)
+repeated radial-gradient
+conic gradient
+repeated conic-gradient
+
+
+backgroud-blend-mode:-
+
+
+normal,screen,overlay,darken,hard-light,soft-light,multyply,color-burn,difference,exclusive,hue,
+
+
+
+opacity:-(bblur)
+
+oppacity:0.3;
+
+filter: alpha(opacity=50);
+
+
+
+text properties:-
+
+
+letter-spacing:
+text-decortion:underline/over line/line through
+text-transform;uppercase
+text-align:justify
+text-indent:
+line-height:
+
+list properties:-
+
+
+list-style-type:decimal;(convert ul to ol)
+list-style-image:url()
+
+
+
+margin:-(outer space)
+padding(inner space) 
+
+border-top/left/right/bottom-color/style/width
+
+
+
+
+
+
+
+
+
+
+
+
+
+
