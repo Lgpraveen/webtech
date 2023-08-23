@@ -1,0 +1,100 @@
+#boxS{
+    display: none;
+    background-color: rgb(128, 217, 50);
+    position: relative;
+    top: 100px;
+    left: 34%;
+    border: 1px solid black;
+    height: 350px;
+    width: 350px;
+    padding: 20px 50px 50px 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px 3px black ;
+    animation-name: Sbox;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.4s;
+    animation-direction: reverse;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes Sbox {
+    0%{
+        top: 600px;
+    }
+    100%{
+        top: 100px;
+    }
+}
+#sgup{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#Sexit{
+    height: 23px;
+    width: 23px;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+#boxS>section>span{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#boxS>section{
+    display: flex;
+    gap: 90px;
+    margin-top: 40px;
+}
+#boxS>section:nth-of-type(2)>input{
+    margin-left: 2px;
+}
+#boxS>section:nth-of-type(3)>input{
+    margin-left: 11px;
+}
+#boxS>section:nth-of-type(4)>input{
+    margin-left: -49px;
+}
+#boxS>section>input{
+    border-radius: 10px;
+    border-color: grey;
+}
+#Sisub{
+    position: absolute;
+    left: 170px;
+    top: 310px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#sec{
+    /* border: 1px solid black; */
+    width: 320px;
+    height: 30px;
+    position: relative;
+    top: -120px;
+    left: 570px;
+    text-align: center;
+}
+#sec2{
+    /* border: 1px solid black; */
+    width: 320px;
+    height: 30px;
+    position: relative;
+    top: -110px;
+    left: 570px;
+    text-align: center;
+}
+#boxS>#bck{
+    position: relative;
+    top: 90px;
+    left: 60px;
+    color: blue;
+}
+

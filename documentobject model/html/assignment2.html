@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+    </style>
+</head>
+<body>
+    
+    <h1>Parking Management System</h1>
+  <form id="parkingForm">
+
+    <label for="carNumber">Car Number:</label>
+    <input type="text" id="carNumber" ><br><br>
+
+    <label for="carName">Car Name:</label>
+    <input type="text" id="carName" ><br><br>
+
+    <label for="checkin">checkin:</label>
+    <input type="text" id="checkin" ><br><br>
+   
+    <label for="checkout">checkout:</label>
+    <input type="text" id="checkout" ><br><br>
+
+    <input type="button" id="button" value="submit" onclick="AddRow()" type="submit">
+
+    <!-- <button onclick="AddRow()" type="submit">Park Car</button> -->
+  </form>
+
+  <h2>Parking Lot</h2>
+  <table class="parkingTable">
+    <tr>
+      <th>Car Number</th>
+      <th>car name</th>
+      <th>checkin</th>
+      <th>checkout</th>
+    </tr>
+  </table>
+
+    <script src="../js/assignment2.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 300px;
+        }
+        Button{
+            background-color: chartreuse;
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        div{
+            font-size: 50px;
+            /* border: 2px solid blue; */
+            /* color: RED; */
+        }
+        #d1{
+          color: RED;
+          border: 2px solid blue;
+          background-color: aqua;
+          border-radius: 1200px;
+          padding: 200px;
+          width: 100px;
+          margin-left: 200px;
+        }
+        #clock{
+          border: 2px solid blue;
+          border-radius: 100px;
+          width: 200px;
+          text-align: center;
+          margin-right: 100px;
+        }
+        #calendar {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    #calendar table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    #calendar th,
+    #calendar td {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    #calendar th {
+      background-color: #f2f2f2;
+    }
+    #calendar td.today {
+      background-color: #e0e0e0;
+    }
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="stopwatch">00:00:00</div>
+    <button id="startButton">Start</button>
+    <button id="stopButton">Stop</button>
+    <button id="resetButton">Reset</button> 
+
+  <div id="d1">TIME
+      <div id="clock"></div>
+    </div>
+   
+    <br>
+
+    
+    <div id="calendar"></div>
+
+    <div class="time"></div>
+    <script src="../js/stopwatch.js"></script>
+</body>
+</html>
